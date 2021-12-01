@@ -7,4 +7,4 @@ class CalculatorController(Controller):
         return self.requestHandler.process(request)
 
     def addHandler(self, requestHandler):
-        self.requestHandler = CalculatorHandler()
+        self.requestHandler = requestHandler
